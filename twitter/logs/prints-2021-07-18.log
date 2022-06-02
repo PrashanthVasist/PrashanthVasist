@@ -1,0 +1,8 @@
+21:45:58.005 [main] INFO  resources.base - Navigated to Home page
+21:46:00.924 [main] INFO  resources.base - clicked step 1 next button
+21:46:00.952 [main] INFO  resources.base - clicked step 2 next button
+21:56:35.167 [main] INFO  resources.base - Driver is initialized
+21:56:50.503 [main] INFO  resources.base - Navigated to Home page
+21:56:52.407 [main] INFO  resources.base - clicked step 1 next button
+21:56:52.438 [main] INFO  resources.base - clicked step 2 next button
+21:57:57.724 [main] INFO  resources.base - Driver is initialized

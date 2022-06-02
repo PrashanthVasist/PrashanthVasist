@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="twitter.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Validating HomePage(failed)">
+    <classes>
+      <class name="twitter.FooterLinks">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- twitter.FooterLinks -->
+      <class name="twitter.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- twitter.HomePage -->
+      <class name="twitter.signup">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- twitter.signup -->
+      <class name="twitter.loginPage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- twitter.loginPage -->
+    </classes>
+  </test> <!-- Validating HomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

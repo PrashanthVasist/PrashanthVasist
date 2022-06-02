@@ -1,0 +1,6 @@
+08:30:06.526 [main] INFO  com.php.base.Base - Initialization is complete and Browser is up and Running
+08:30:11.080 [main] INFO  com.php.base.Base - URL is opened successfully
+08:30:11.147 [main] INFO  com.php.base.Base - Validating Login Button
+08:31:01.854 [main] INFO  com.php.base.Base - Trying to read a configuration and Test is about to Start
+08:31:01.857 [main] INFO  com.php.base.Base - Configuration Read Successfully
+08:31:01.857 [main] INFO  com.php.base.Base - Trying to Initialize the Browser

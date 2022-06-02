@@ -1,0 +1,8 @@
+12:29:09.080 [main] INFO  resources.base - clicked step 1 next button
+12:29:09.161 [main] INFO  resources.base - clicked step 2 next button
+12:29:09.220 [main] INFO  resources.base - clicked signup button
+12:31:02.428 [TestNG] INFO  resources.base - Driver is initialized
+12:31:17.228 [TestNG] INFO  resources.base - Navigated to Home page
+12:31:17.745 [TestNG] INFO  resources.base - Restrcited User
+12:31:23.936 [TestNG] INFO  resources.base - Non restricted user
+12:31:24.291 [TestNG] INFO  resources.base - clicked step 1 next button

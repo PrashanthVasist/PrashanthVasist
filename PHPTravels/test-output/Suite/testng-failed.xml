@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.php.testCases.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.php.testCases.LoginPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.php.testCases.LoginPageTest -->
+      <class name="com.php.testCases.ProfileCreationExecution">
+        <methods>
+          <include name="quit"/>
+          <include name="profileCreation" invocation-numbers="0"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.php.testCases.ProfileCreationExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

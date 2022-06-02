@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <listeners>
+<listener class-name="twitter.Listeners"/>
+</listeners>
+   <test name="Validating signup">
+    <classes>
+      <class name="twitter.signup"/>
+          </classes>
+      </test>
+      
+    <test name="Validating HomePage">
+         <classes>
+      <class name="twitter.HomePage"/>
+       </classes>
+      </test>
+       <test name="App Testing">
+         <classes>
+      <class name="twitter.AppTest"/>
+       </classes>
+      </test>
+            <test name="Validating FooterLinks">
+         <classes>
+      <class name="twitter.FooterLinks"/>
+   </classes>
+      </test>
+ <test name="Validating loginPage">
+         <classes>
+      <class name="twitter.loginPage"/>
+   </classes>
+      </test>
+</suite> <!-- Suite -->
