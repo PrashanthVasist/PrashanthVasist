@@ -1,6 +1,0 @@
-08:29:07.445 [main] INFO  com.php.base.Base - Trying to read a configuration and Test is about to Start
-08:29:07.472 [main] INFO  com.php.base.Base - Configuration Read Successfully
-08:29:07.472 [main] INFO  com.php.base.Base - Trying to Initialize teh Browser
-08:29:09.554 [main] INFO  com.php.base.Base - Initialization is complete and Browser is up and Running
-08:29:23.257 [main] INFO  com.php.base.Base - URL is opened successfully
-08:29:23.297 [main] INFO  com.php.base.Base - Validating Login Button

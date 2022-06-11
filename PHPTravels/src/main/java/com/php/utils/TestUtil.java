@@ -43,7 +43,7 @@ public class TestUtil extends Base{
 	
 	public static String getDateTime()
 	{
-		DateFormat presDate = new SimpleDateFormat ("DD/MM/YYYY HH:mm:ss");
+		DateFormat presDate = new SimpleDateFormat ("DD_MM_YYYY_HH_mm_ss");
 		Date currDate = new Date();
 		presDate.format(currDate);
 		return presDate.format(currDate);

@@ -1,0 +1,7 @@
+20:54:14.645 [main] INFO  com.php.base.Base - Initialization is complete and Browser is up and Running
+20:54:26.023 [main] INFO  com.php.base.Base - URL is opened successfully
+20:54:26.238 [main] INFO  com.php.base.Base - Validating Login Button
+20:54:27.524 [main] INFO  com.php.base.Base - Login Button validation Completed
+20:54:27.525 [main] INFO  com.php.base.Base - Validating Login Credentials
+20:54:27.533 [main] INFO  com.php.base.Base - Login Credentials Validation Completed
+20:54:27.533 [main] INFO  com.php.base.Base - Validating Profile Creation Fields

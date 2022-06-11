@@ -23,9 +23,10 @@ public class Base {
 			prop = new Properties();
 			fis = new FileInputStream(System.getProperty("user.dir"+"/config/config.properties"));
 			prop.load(fis);
-		} catch (FileNotFoundException e) {
+		}
+		catch (FileNotFoundException e) 
+		{
 			System.out.println("File Not Found");
-			
 		}
 		
 		String browsername=prop.getProperty("browser");
