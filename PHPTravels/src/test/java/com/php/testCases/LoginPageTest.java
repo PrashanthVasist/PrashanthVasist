@@ -3,6 +3,7 @@ package com.php.testCases;
 import java.io.FileNotFoundException;
 import java.security.PublicKey;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -48,7 +49,7 @@ public class LoginPageTest extends Base {
 	public void Login(String username, String pwd)   //Main Method 
 	{
 		log.info("Validating Login Button");
-		home.LoginBtnValidation();					//Methods
+		home.LoginBtnValidation();	
 		log.info("Login Button validation Completed");
 		
 		log.info("Validating Login Credentials");

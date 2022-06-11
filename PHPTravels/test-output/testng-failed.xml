@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.php.testCases.LoginPageTest">
+      <class name="com.php.testCases.ProfileCreationExecution">
         <methods>
+          <include name="quit"/>
+          <include name="profileCreation" invocation-numbers="0"/>
           <include name="Setup"/>
-          <include name="Login" invocation-numbers="0"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.php.testCases.LoginPageTest -->
+      </class> <!-- com.php.testCases.ProfileCreationExecution -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

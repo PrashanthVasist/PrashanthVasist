@@ -6,13 +6,6 @@
   </listeners>
   <test parallel="none" name="Test(failed)">
     <classes>
-      <class name="com.php.testCases.LoginPageTest">
-        <methods>
-          <include name="Setup"/>
-          <include name="Login" invocation-numbers="0"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.php.testCases.LoginPageTest -->
       <class name="com.php.testCases.ProfileCreationExecution">
         <methods>
           <include name="quit"/>
@@ -20,6 +13,12 @@
           <include name="Setup"/>
         </methods>
       </class> <!-- com.php.testCases.ProfileCreationExecution -->
+      <class name="com.php.testCases.LoginPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.php.testCases.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

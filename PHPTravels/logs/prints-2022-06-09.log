@@ -1,0 +1,7 @@
+07:57:24.457 [main] INFO  com.php.base.Base - Trying to Initialize the Browser
+07:57:24.459 [main] INFO  com.php.base.Base - chromeBrowser has been considered to test this page
+07:57:25.582 [main] INFO  com.php.base.Base - Initialization is complete and Browser is up and Running
+07:57:31.715 [main] INFO  com.php.base.Base - URL is opened successfully
+07:57:31.734 [main] INFO  com.php.base.Base - Validating Login Button
+07:57:33.218 [main] INFO  com.php.base.Base -  clicked successfully
+07:57:33.218 [main] INFO  com.php.base.Base - Login Button validation Completed

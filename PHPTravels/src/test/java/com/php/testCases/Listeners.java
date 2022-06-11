@@ -55,14 +55,14 @@ public class Listeners extends TestUtil implements ITestListener{
 		try {
 			driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
 		} catch (Exception e) {
-			System.out.println("Screenshot has not been taken on Test Fail");
+			System.out.println("Nothing");
 		}
 		try {
 			extentTest.get().addScreenCaptureFromPath(getScreenShotPath(testMethodName,driver), result.getMethod().getMethodName());
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("Screenshot has not been taken on Test Fail");
 		}
 	}
 

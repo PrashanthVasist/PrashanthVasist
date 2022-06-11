@@ -42,7 +42,7 @@ public class Base {
 		
 		
 		String browserName=prop.getProperty("browser");
-		System.out.println(browserName);
+		log.info(browserName + "Browser has been considered to test this page");
 		
 		if(browserName.contains("chrome"))   {
 			
@@ -88,7 +88,7 @@ public class Base {
 	{
 //		TakesScreenshot ts=((TakesScreenshot) driver);
 		File source =((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		String destinationFile = System.getProperty("user.dir")+"/Screenshot/PHPTravels"+testCaseName+TestUtil.getDateTime()+".png";
+		String destinationFile = System.getProperty("user.dir")+"/Screenshot/PHPTravels+"+testCaseName+"_"+TestUtil.getDateTime()+".png";
 		FileUtils.copyFile(source,new File(destinationFile));
 		return destinationFile;
 

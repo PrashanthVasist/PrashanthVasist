@@ -16,11 +16,11 @@ public class HomePage extends Base {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
 	public void LoginBtnValidation()
 	{
 		LoginButton.click();
 	}
+	
 
 
 }

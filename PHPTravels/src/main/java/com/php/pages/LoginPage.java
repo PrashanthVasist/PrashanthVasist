@@ -23,11 +23,17 @@ public class LoginPage extends Base {
 	public void loginValidation(String username, String pwd)
 	{   
 		
-		act.moveToElement(userName).sendKeys(username);
-//		userName.sendKeys(username);
-		act.moveToElement(password).sendKeys(pwd);
-//		password.sendKeys(pwd);
-		act.moveToElement(lgnBtn).click();
-//		lgnBtn.click();
+		log.info("Entering username");
+		//act.moveToElement(userName).sendKeys(username);
+		userName.sendKeys(username);
+		log.info("username entered successfully");
+		log.info("Entering password");
+		//act.moveToElement(password).sendKeys(pwd);
+		password.sendKeys(pwd);
+		log.info("Password entered successfully");
+		log.info("Clicking Login Button");
+		//act.moveToElement(lgnBtn).click();
+		lgnBtn.click();
+		log.info("Login Btn clicked successfully");
 	}
 }

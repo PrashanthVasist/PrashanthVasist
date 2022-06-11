@@ -1,7 +1,0 @@
-09:20:06.189 [main] INFO  com.php.base.Base - Validating Login Button
-09:20:09.480 [main] INFO  com.php.base.Base - Login Button validation Completed
-09:20:09.481 [main] INFO  com.php.base.Base - Validating Login Credentials
-09:20:12.125 [main] INFO  com.php.base.Base - Login Credentials Validation Completed
-09:23:39.812 [main] INFO  com.php.base.Base - Trying to read a configuration and Test is about to Start
-09:23:39.814 [main] INFO  com.php.base.Base - Configuration Read Successfully
-09:23:39.814 [main] INFO  com.php.base.Base - Trying to Initialize teh Browser
