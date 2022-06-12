@@ -8,6 +8,8 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +18,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.OrangeHRM.utils.ExtentReporter;
 import com.OrangeHRM.utils.TestUtils;
 
 public class OrangeBase {
@@ -23,6 +26,8 @@ public class OrangeBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	public static WebDriverWait wait;
+	public static Logger log = LogManager.getLogger(OrangeBase.class.getName());
+	
 	
 	public static WebDriver InitializeDriver() throws IOException
 	{
