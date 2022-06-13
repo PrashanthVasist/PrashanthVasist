@@ -1,0 +1,6 @@
+com\OrangeHRM\utils\TestUtils.class
+com\OrangeHRM\pages\EmployeeList.class
+com\OrangeHRM\utils\ExtentReporter.class
+com\OrangeHRM\pages\CandidateDetails.class
+com\OrangeHRM\pages\LoginPage.class
+com\OrangeHRM\Base\OrangeBase.class
