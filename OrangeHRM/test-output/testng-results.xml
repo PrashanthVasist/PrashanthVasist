@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="8" passed="5" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T14:45:33Z" name="Default suite" finished-at="2022-05-25T14:45:57Z" duration-ms="23634">
+  <suite started-at="2022-06-12T04:08:20Z" name="Suite" finished-at="2022-06-12T04:11:35Z" duration-ms="195066">
     <groups>
     </groups>
-    <test started-at="2022-05-25T14:45:33Z" name="Default test" finished-at="2022-05-25T14:45:57Z" duration-ms="23634">
+    <test started-at="2022-06-12T04:08:20Z" name="Test" finished-at="2022-06-12T04:11:35Z" duration-ms="195066">
       <class name="com.Orange.testCases.CandidateDetailsTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@68f4865]" started-at="2022-05-25T20:15:35Z" name="Setup" finished-at="2022-05-25T20:15:48Z" duration-ms="12606" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@210386e0]" started-at="2022-06-12T09:41:14Z" name="Setup" finished-at="2022-06-12T09:41:22Z" duration-ms="7882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="DownloadCV(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@68f4865]" started-at="2022-05-25T20:15:48Z" name="DownloadCV" description="Download CV for Validation" data-provider="getTestData" finished-at="2022-05-25T20:15:57Z" duration-ms="8675" status="PASS">
+        <test-method signature="DownloadCV(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@210386e0]" started-at="2022-06-12T09:41:22Z" name="DownloadCV" description="Download CV for Validation" data-provider="getTestData" finished-at="2022-06-12T09:41:33Z" duration-ms="10305" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -24,14 +24,623 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R05C0VE', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:8059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ef90c1f425a0736d5483e7eaca14dfc2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R05C0VE', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:8059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ef90c1f425a0736d5483e7eaca14dfc2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.OrangeHRM.pages.LoginPage.loginValidation(LoginPage.java:24)
+	at com.Orange.testCases.CandidateDetailsTest.DownloadCV(CandidateDetailsTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DownloadCV -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@68f4865]" started-at="2022-05-25T20:15:57Z" name="CloseBrowser" finished-at="2022-05-25T20:15:57Z" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@210386e0]" started-at="2022-06-12T09:41:33Z" name="CloseBrowser" finished-at="2022-06-12T09:41:35Z" duration-ms="1248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.Orange.testCases.CandidateDetailsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.Orange.testCases.EmployeeListTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:38:52Z" name="Setup" finished-at="2022-06-12T09:39:02Z" duration-ms="9747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:39:02Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-12T09:39:13Z" duration-ms="10765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pichu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pikachu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pikachu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[025]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Pikachu.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pikachu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[PikaPikaPee]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PikaPikaPee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:39:13Z" name="teardown" finished-at="2022-06-12T09:39:13Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:39:13Z" name="Setup" finished-at="2022-06-12T09:39:22Z" duration-ms="8778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:39:22Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-12T09:39:36Z" duration-ms="14558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pidgey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pidgeotto]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pidgeotto]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[017]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Pidgeotto.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pidgeotto]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[HaaHaaHaa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[HaaHaaHaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:39:37Z" name="teardown" finished-at="2022-06-12T09:39:39Z" duration-ms="1591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:39:39Z" name="Setup" finished-at="2022-06-12T09:39:52Z" duration-ms="13272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:39:52Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-12T09:40:05Z" duration-ms="12748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Caterpee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Metapod]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Butterfree]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[012]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Butterfree.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Butterfree]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[FreeFreeFree]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FreeFreeFree]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:40:05Z" name="teardown" finished-at="2022-06-12T09:40:06Z" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:40:06Z" name="Setup" finished-at="2022-06-12T09:40:17Z" duration-ms="10431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:40:17Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-12T09:40:30Z" duration-ms="13310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Charmander]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Charmander]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Charmander]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[004]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Charmander.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Charmander]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[PikaPikaPee]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PikaPikaPee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:40:30Z" name="teardown" finished-at="2022-06-12T09:40:31Z" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:40:31Z" name="Setup" finished-at="2022-06-12T09:40:43Z" duration-ms="11920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:40:43Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-12T09:40:54Z" duration-ms="10362" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Squirtle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Squirtle]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Squirtle]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[025]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Squirtle.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Squirtle]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[SquirtleSquirt]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[SquirtleSquirt]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R05C0VE', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:8006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90c5f911777ba4e77c00de903455ae10]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R05C0VE', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:8006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90c5f911777ba4e77c00de903455ae10
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.OrangeHRM.pages.LoginPage.loginValidation(LoginPage.java:24)
+	at com.Orange.testCases.EmployeeListTest.AddEmployees(EmployeeListTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:40:55Z" name="teardown" finished-at="2022-06-12T09:40:56Z" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:40:56Z" name="Setup" finished-at="2022-06-12T09:41:05Z" duration-ms="8336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:41:05Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-12T09:41:14Z" duration-ms="9226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bulbasaur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bulbasaur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bulbasaur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Bulbasaur.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bulbasaur]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BulbaBulb]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BulbaBulb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@5528a42c]" started-at="2022-06-12T09:41:14Z" name="teardown" finished-at="2022-06-12T09:41:14Z" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Orange.testCases.EmployeeListTest -->
+      <class name="com.Orange.testCases.LoginPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.LoginPageTest@2a551a63]" started-at="2022-06-12T09:38:20Z" name="Setup" finished-at="2022-06-12T09:38:39Z" duration-ms="18644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginValidation(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.LoginPageTest@2a551a63]" started-at="2022-06-12T09:38:39Z" name="loginValidation" data-provider="getTestData" finished-at="2022-06-12T09:38:49Z" duration-ms="10459" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R05C0VE', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c1d50283501c13b5e049bfa416b867b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-R05C0VE', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5636}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c1d50283501c13b5e049bfa416b867b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.OrangeHRM.pages.LoginPage.loginValidation(LoginPage.java:24)
+	at com.Orange.testCases.LoginPageTest.loginValidation(LoginPageTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Orange.testCases.LoginPageTest@2a551a63]" started-at="2022-06-12T09:38:51Z" name="tearDown" finished-at="2022-06-12T09:38:52Z" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Orange.testCases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
