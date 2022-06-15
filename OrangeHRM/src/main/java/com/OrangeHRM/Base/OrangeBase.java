@@ -29,17 +29,20 @@ public class OrangeBase {
 	public static Logger log = LogManager.getLogger(OrangeBase.class.getName());
 	
 	
+	
 	public static WebDriver InitializeDriver() throws IOException
 	{
+		log.info("Initializing WebDriver");
 		try {
 			prop = new Properties();
 			FileInputStream fis;
 			fis = new FileInputStream(System.getProperty("user.dir")+"/config/config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
-			System.out.println("File is not found");
+			log.info("WebDriver file is not found");
+//			System.out.println("File is not found");
 		}
-		
+		log.info("WebDriver is now Initialized");
 		
 		String BrowserName = prop.getProperty("Browser");
 		
@@ -60,6 +63,9 @@ public class OrangeBase {
 			System.setProperty("webdriver.msedge.driver", prop.getProperty("EdgePath"));
 			driver = new EdgeDriver();
 		}
+		
+		log.info(BrowserName+" is up and running");
+		
 		wait = new WebDriverWait(driver, 10);
 		
 		driver.manage().window().maximize();

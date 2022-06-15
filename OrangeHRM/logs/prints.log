@@ -1,0 +1,6 @@
+13:51:41.641 [main] INFO  com.OrangeHRM.Base.OrangeBase - Initializing WebDriver
+13:51:41.646 [main] INFO  com.OrangeHRM.Base.OrangeBase - WebDriver is now Initialized
+13:51:44.386 [main] INFO  com.OrangeHRM.Base.OrangeBase - chrome is up and running
+13:52:00.127 [main] INFO  com.OrangeHRM.Base.OrangeBase - Initializing WebDriver
+13:52:00.127 [main] INFO  com.OrangeHRM.Base.OrangeBase - WebDriver is now Initialized
+13:52:01.681 [main] INFO  com.OrangeHRM.Base.OrangeBase - chrome is up and running

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-14T08:19:37Z" name="Suite" finished-at="2022-06-14T08:22:18Z" duration-ms="161038">
+    <groups>
+    </groups>
+    <test started-at="2022-06-14T08:19:37Z" name="Test" finished-at="2022-06-14T08:22:18Z" duration-ms="161038">
+      <class name="com.Orange.testCases.CandidateDetailsTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@6b739528]" started-at="2022-06-14T13:52:00Z" name="Setup" finished-at="2022-06-14T13:52:07Z" duration-ms="7764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DownloadCV(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@6b739528]" started-at="2022-06-14T13:52:07Z" name="DownloadCV" description="Download CV for Validation" data-provider="getTestData" finished-at="2022-06-14T13:52:17Z" duration-ms="9229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadCV -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.Orange.testCases.CandidateDetailsTest@6b739528]" started-at="2022-06-14T13:52:17Z" name="CloseBrowser" finished-at="2022-06-14T13:52:18Z" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.Orange.testCases.CandidateDetailsTest -->
+      <class name="com.Orange.testCases.EmployeeListTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:49:58Z" name="Setup" finished-at="2022-06-14T13:50:06Z" duration-ms="7561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:50:06Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-14T13:50:17Z" duration-ms="11419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pichu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pikachu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pikachu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[025]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Pikachu.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pikachu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[PikaPikaPee]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PikaPikaPee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:50:17Z" name="teardown" finished-at="2022-06-14T13:50:18Z" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:50:18Z" name="Setup" finished-at="2022-06-14T13:50:26Z" duration-ms="7592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:50:26Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-14T13:50:39Z" duration-ms="13388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pidgey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pidgeotto]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pidgeotto]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[017]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Pidgeotto.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pidgeotto]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[HaaHaaHaa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[HaaHaaHaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:50:39Z" name="teardown" finished-at="2022-06-14T13:50:41Z" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:50:41Z" name="Setup" finished-at="2022-06-14T13:50:51Z" duration-ms="10158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:50:51Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-14T13:51:00Z" duration-ms="9025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Caterpee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Metapod]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Butterfree]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[012]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Butterfree.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Butterfree]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[FreeFreeFree]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[FreeFreeFree]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:00Z" name="teardown" finished-at="2022-06-14T13:51:01Z" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:01Z" name="Setup" finished-at="2022-06-14T13:51:09Z" duration-ms="7652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:09Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-14T13:51:18Z" duration-ms="9387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Charmander]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Charmander]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Charmander]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[004]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Charmander.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Charmander]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[PikaPikaPee]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PikaPikaPee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:18Z" name="teardown" finished-at="2022-06-14T13:51:19Z" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:19Z" name="Setup" finished-at="2022-06-14T13:51:26Z" duration-ms="6709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:26Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-14T13:51:40Z" duration-ms="13792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Squirtle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Squirtle]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Squirtle]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[025]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Squirtle.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Squirtle]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[SquirtleSquirt]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[SquirtleSquirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:40Z" name="teardown" finished-at="2022-06-14T13:51:41Z" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:41Z" name="Setup" finished-at="2022-06-14T13:51:49Z" duration-ms="8285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddEmployees(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:49Z" name="AddEmployees" data-provider="getTestData" finished-at="2022-06-14T13:51:58Z" duration-ms="9051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bulbasaur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bulbasaur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bulbasaur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D:\Java\Eclipse\Testing\OrangeHRM\Images\Bulbasaur.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bulbasaur]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BulbaBulb]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BulbaBulb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployees -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Orange.testCases.EmployeeListTest@33aa93c]" started-at="2022-06-14T13:51:59Z" name="teardown" finished-at="2022-06-14T13:52:00Z" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Orange.testCases.EmployeeListTest -->
+      <class name="com.Orange.testCases.LoginPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Orange.testCases.LoginPageTest@3ef41c66]" started-at="2022-06-14T13:49:38Z" name="Setup" finished-at="2022-06-14T13:49:50Z" duration-ms="12172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginValidation(java.lang.String, java.lang.String)[pri:0, instance:com.Orange.testCases.LoginPageTest@3ef41c66]" started-at="2022-06-14T13:49:50Z" name="loginValidation" data-provider="getTestData" finished-at="2022-06-14T13:49:55Z" duration-ms="5785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Orange.testCases.LoginPageTest@3ef41c66]" started-at="2022-06-14T13:49:57Z" name="tearDown" finished-at="2022-06-14T13:49:58Z" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Orange.testCases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

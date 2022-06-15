@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 14 13:49:37 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>161 seconds (161038 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Orange.testCases.EmployeeListTest.AddEmployees()'><b>AddEmployees</b><br>Test class: com.Orange.testCases.EmployeeListTest<br>Parameters: Admin, admin123, Pichu, Pikachu, Pikachu, 025, D:\Java\Eclipse\Testing\OrangeHRM\Images\Pikachu.png, Pikachu, PikaPikaPee, PikaPikaPee</td>
+<td></td>
+<td>11</td>
+<td>com.Orange.testCases.EmployeeListTest@33aa93c</td></tr>
+<tr>
+<td title='com.Orange.testCases.EmployeeListTest.AddEmployees()'><b>AddEmployees</b><br>Test class: com.Orange.testCases.EmployeeListTest<br>Parameters: Admin, admin123, Pidgey, Pidgeotto, Pidgeotto, 017, D:\Java\Eclipse\Testing\OrangeHRM\Images\Pidgeotto.png, Pidgeotto, HaaHaaHaa, HaaHaaHaa</td>
+<td></td>
+<td>13</td>
+<td>com.Orange.testCases.EmployeeListTest@33aa93c</td></tr>
+<tr>
+<td title='com.Orange.testCases.EmployeeListTest.AddEmployees()'><b>AddEmployees</b><br>Test class: com.Orange.testCases.EmployeeListTest<br>Parameters: Admin, admin123, Caterpee, Metapod, Butterfree, 012, D:\Java\Eclipse\Testing\OrangeHRM\Images\Butterfree.png, Butterfree, FreeFreeFree, FreeFreeFree</td>
+<td></td>
+<td>9</td>
+<td>com.Orange.testCases.EmployeeListTest@33aa93c</td></tr>
+<tr>
+<td title='com.Orange.testCases.EmployeeListTest.AddEmployees()'><b>AddEmployees</b><br>Test class: com.Orange.testCases.EmployeeListTest<br>Parameters: Admin, admin123, Charmander, Charmander, Charmander, 004, D:\Java\Eclipse\Testing\OrangeHRM\Images\Charmander.png, Charmander, PikaPikaPee, PikaPikaPee</td>
+<td></td>
+<td>9</td>
+<td>com.Orange.testCases.EmployeeListTest@33aa93c</td></tr>
+<tr>
+<td title='com.Orange.testCases.EmployeeListTest.AddEmployees()'><b>AddEmployees</b><br>Test class: com.Orange.testCases.EmployeeListTest<br>Parameters: Admin, admin123, Squirtle, Squirtle, Squirtle, 025, D:\Java\Eclipse\Testing\OrangeHRM\Images\Squirtle.png, Squirtle, SquirtleSquirt, SquirtleSquirt</td>
+<td></td>
+<td>13</td>
+<td>com.Orange.testCases.EmployeeListTest@33aa93c</td></tr>
+<tr>
+<td title='com.Orange.testCases.EmployeeListTest.AddEmployees()'><b>AddEmployees</b><br>Test class: com.Orange.testCases.EmployeeListTest<br>Parameters: Admin, admin123, Bulbasaur, Bulbasaur, Bulbasaur, 001, D:\Java\Eclipse\Testing\OrangeHRM\Images\Bulbasaur.png, Bulbasaur, BulbaBulb, BulbaBulb</td>
+<td></td>
+<td>9</td>
+<td>com.Orange.testCases.EmployeeListTest@33aa93c</td></tr>
+<tr>
+<td title='com.Orange.testCases.CandidateDetailsTest.DownloadCV()'><b>DownloadCV</b><br>Test class: com.Orange.testCases.CandidateDetailsTest<br>Test method: Download CV for Validation<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>9</td>
+<td>com.Orange.testCases.CandidateDetailsTest@6b739528</td></tr>
+<tr>
+<td title='com.Orange.testCases.LoginPageTest.loginValidation()'><b>loginValidation</b><br>Test class: com.Orange.testCases.LoginPageTest<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>5</td>
+<td>com.Orange.testCases.LoginPageTest@3ef41c66</td></tr>
+</table><p>
+</body>
+</html>
